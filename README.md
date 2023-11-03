@@ -17,8 +17,11 @@ For instance,
 input_path='C:\Humber\AI Capstone\mnist'
 
 training_img_path = join(input_path, 'train-images-idx3-ubyte/train-images-idx3-ubyte')
+
 training_label_path = join(input_path, 'train-labels-idx1-ubyte/train-labels-idx1-ubyte')
+
 test_img_path = join(input_path, 't10k-images-idx3-ubyte/t10k-images-idx3-ubyte')
+
 test_label_path = join(input_path, 't10k-labels-idx1-ubyte/t10k-labels-idx1-ubyte')
 
 ## Run the Code
